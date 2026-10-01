@@ -1,0 +1,9 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: https://eureka-server-66h8.onrender.com/eureka/
+  instance:
+    hostname: ${RENDER_EXTERNAL_HOSTNAME}
+    non-secure-port-enabled: false
+    secure-port-enabled: true
+    secure-port: 443
